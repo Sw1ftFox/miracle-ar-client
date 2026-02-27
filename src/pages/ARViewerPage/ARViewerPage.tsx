@@ -28,9 +28,9 @@ const ARViewerPage = () => {
     }
   }, [modelName]);
 
-  const modelUrl = currentModel?.modelUrl;
-  const markerPatternUrl = currentModel?.patternUrl;
-  const soundUrl = currentModel?.soundUrl;
+  const modelUrl = API_BASE + currentModel?.modelUrl;
+  const markerPatternUrl = API_BASE + currentModel?.patternUrl;
+  const soundUrl = API_BASE + currentModel?.soundUrl;
 
   useEffect(() => {
     const forceHideScroll = () => {
