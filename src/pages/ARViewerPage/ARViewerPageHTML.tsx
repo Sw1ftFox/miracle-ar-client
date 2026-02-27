@@ -114,6 +114,7 @@ const ARViewerPageHTML = () => {
           }}
           title="AR Scene"
           allow="camera; microphone; autoplay; encrypted-media"
+          loading="eager"
         />
       )}
 
