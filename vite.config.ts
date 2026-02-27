@@ -19,7 +19,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        // target: 'http://localhost:8080',
+        target: 'https://sw1ftfox-miracle-ar-server-340d.twc1.net',
         changeOrigin: true
       }
     }
