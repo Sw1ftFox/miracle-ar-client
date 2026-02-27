@@ -31,6 +31,7 @@ const ARViewerPage = () => {
   const modelUrl = API_BASE + currentModel?.modelUrl;
   const markerPatternUrl = API_BASE + currentModel?.patternUrl;
   const soundUrl = API_BASE + currentModel?.soundUrl;
+  console.log(modelUrl, markerPatternUrl, soundUrl)
 
   useEffect(() => {
     const forceHideScroll = () => {
