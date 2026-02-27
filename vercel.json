@@ -5,11 +5,7 @@
   "installCommand": "npm ci",
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://ar-backend-p6tq.onrender.com/api/$1"
-    },
-    {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
   ]
